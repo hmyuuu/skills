@@ -11,65 +11,46 @@ You are executing the arxiv-digest skill.
 $ARGUMENTS
 
 ## Purpose
-Automatically fetch, filter, and summarize arxiv papers matching your research interests.
+Fetch, filter, and summarize arxiv papers matching research interests.
 
 ## Autonomy Level: L3 (Autonomous)
-- **Human**: Set interests once, review final digest
-- **AI**: Search → filter → summarize → validate → present
+- **Human**: Set interests, review digest
+- **AI**: Fetch → filter → summarize → present
 
-## Agent Loop
-```
-while not goal_reached:
-    main_agent.plan(current_state)
-    researcher.fetch_arxiv(categories, keywords)
-    prover.filter_by_relevance(papers, interests)
-    writer.summarize(relevant_papers)
-    polisher.format_digest()
-    if digest_ready:
-        present_to_human(digest)
+## Fetch Method (REQUIRED)
+
+WebFetch is blocked for arxiv.org. Use curl via Bash:
+
+```bash
+# Fetch by category (e.g., quant-ph, cs.LG)
+curl -sL "https://export.arxiv.org/api/query?search_query=cat:quant-ph&sortBy=submittedDate&sortOrder=descending&max_results=10" -o /tmp/arxiv.xml
+
+# Fetch by keyword
+curl -sL "https://export.arxiv.org/api/query?search_query=all:quantum+computing&max_results=10" -o /tmp/arxiv.xml
+
+# Parse results
+grep -E "<entry>|<title>|<id>http://arxiv|<name>|<summary>" /tmp/arxiv.xml
 ```
 
 ## Input Required
-- arxiv categories (e.g., quant-ph, cs.LG, cond-mat)
-- Keywords/topics of interest
-- Digest frequency (daily/weekly)
+- arxiv category (e.g., quant-ph, cs.LG)
+- Number of papers (default: 10)
 
 ## Output Format
 ```markdown
 # Arxiv Digest - [Date]
 
-## High Relevance
-### [Paper Title](arxiv_link)
+## [Paper Title]
 **Authors**: ...
-**Abstract**: 2-3 sentence summary
-**Why relevant**: connection to your interests
-
-## Medium Relevance
-...
-
-## Quick Mentions
-- [Title](link) - one-line summary
+**arXiv**: https://arxiv.org/abs/XXXX.XXXXX
+**Summary**: 2-3 sentences
 ```
 
-## Human Checkpoint
-- Review digest, mark papers to read in full
-- Optionally refine interest keywords
+## Fallback
+If curl fails, check user's Zotero library with `zotero_semantic_search`.
 
 ## Categories
 - `quant-ph` - Quantum Physics
 - `cs.LG` - Machine Learning
 - `cond-mat` - Condensed Matter
 - `hep-th` - High Energy Physics Theory
-- `stat.ML` - Statistics ML
-
-## Tool
-
-`arxiv_fetch.py` - CLI to fetch papers from arxiv API.
-
-```bash
-# Fetch ML papers
-./arxiv_fetch.py -c cs.LG -n 10 -f markdown
-
-# Search by keywords
-./arxiv_fetch.py -k "transformer" "attention" -f json
-```
