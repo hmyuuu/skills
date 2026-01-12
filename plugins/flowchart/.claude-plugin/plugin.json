@@ -1,0 +1,8 @@
+{
+  "name": "flowchart",
+  "description": "Generate flowcharts with typst/cetz. L2 autonomy - directed creation with human validation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "hmyuuu"
+  }
+}

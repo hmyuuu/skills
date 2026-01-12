@@ -1,0 +1,8 @@
+{
+  "name": "experiment-logger",
+  "description": "Log ML experiments with params and plots. L2 directed autonomy with human review of results.",
+  "version": "1.0.0",
+  "author": {
+    "name": "hmyuuu"
+  }
+}

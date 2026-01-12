@@ -10,106 +10,66 @@
   "plugins": [
     {
       "name": "issue-triage",
-      "description": "Evaluate, polish, and create GitHub issues with human validation checkpoints. L2 autonomy - human sets method, reviews results.",
+      "description": "Evaluate, polish, and create GitHub issues with human validation checkpoints. L2 autonomy.",
       "version": "1.0.0",
-      "author": {
-        "name": "hmyuuu"
-      },
-      "source": {
-        "source": "github",
-        "repo": "hmyuuu/skills"
-      },
+      "author": { "name": "hmyuuu" },
+      "source": { "source": "github", "repo": "hmyuuu/skills", "path": "plugins/issue-triage" },
       "category": "development"
     },
     {
       "name": "academic-research",
-      "description": "Research papers, write typst with cetz plots. L1-L2 autonomy with human validation at key decision points.",
+      "description": "Research papers, write typst with cetz plots. L1-L2 autonomy with human validation.",
       "version": "1.0.0",
-      "author": {
-        "name": "hmyuuu"
-      },
-      "source": {
-        "source": "github",
-        "repo": "hmyuuu/skills"
-      },
+      "author": { "name": "hmyuuu" },
+      "source": { "source": "github", "repo": "hmyuuu/skills", "path": "plugins/academic-research" },
       "category": "research"
     },
     {
       "name": "arxiv-digest",
-      "description": "Autonomous daily digest of relevant arxiv papers in physics and ML based on your interests. L3 autonomy - human approves goal, reviews final digest.",
+      "description": "Autonomous daily digest of relevant arxiv papers. L3 autonomy.",
       "version": "1.0.0",
-      "author": {
-        "name": "hmyuuu"
-      },
-      "source": {
-        "source": "github",
-        "repo": "hmyuuu/skills"
-      },
+      "author": { "name": "hmyuuu" },
+      "source": { "source": "github", "repo": "hmyuuu/skills", "path": "plugins/arxiv-digest" },
       "category": "research"
     },
     {
       "name": "latex-to-typst",
-      "description": "Convert LaTeX documents to typst format. L3 autonomous conversion with human review of final output.",
+      "description": "Convert LaTeX documents to typst format. L3 autonomous conversion.",
       "version": "1.0.0",
-      "author": {
-        "name": "hmyuuu"
-      },
-      "source": {
-        "source": "github",
-        "repo": "hmyuuu/skills"
-      },
+      "author": { "name": "hmyuuu" },
+      "source": { "source": "github", "repo": "hmyuuu/skills", "path": "plugins/latex-to-typst" },
       "category": "productivity"
     },
     {
       "name": "flowchart",
-      "description": "Generate flowcharts with typst/cetz. L2 autonomy - directed creation with human validation.",
+      "description": "Generate flowcharts with typst/cetz. L2 autonomy.",
       "version": "1.0.0",
-      "author": {
-        "name": "hmyuuu"
-      },
-      "source": {
-        "source": "github",
-        "repo": "hmyuuu/skills"
-      },
+      "author": { "name": "hmyuuu" },
+      "source": { "source": "github", "repo": "hmyuuu/skills", "path": "plugins/flowchart" },
       "category": "productivity"
     },
     {
       "name": "derivation-checker",
-      "description": "Step-by-step math derivation verification. L1 conversational - check every step with human.",
+      "description": "Step-by-step math derivation verification. L1 conversational.",
       "version": "1.0.0",
-      "author": {
-        "name": "hmyuuu"
-      },
-      "source": {
-        "source": "github",
-        "repo": "hmyuuu/skills"
-      },
+      "author": { "name": "hmyuuu" },
+      "source": { "source": "github", "repo": "hmyuuu/skills", "path": "plugins/derivation-checker" },
       "category": "research"
     },
     {
       "name": "experiment-logger",
-      "description": "Log ML experiments with params and plots. L2 directed autonomy with human review of results.",
+      "description": "Log ML experiments with params and plots. L2 directed autonomy.",
       "version": "1.0.0",
-      "author": {
-        "name": "hmyuuu"
-      },
-      "source": {
-        "source": "github",
-        "repo": "hmyuuu/skills"
-      },
+      "author": { "name": "hmyuuu" },
+      "source": { "source": "github", "repo": "hmyuuu/skills", "path": "plugins/experiment-logger" },
       "category": "development"
     },
     {
       "name": "citation-manager",
-      "description": "Find and format citations automatically. L3 autonomous with human validation of final bibliography.",
+      "description": "Find and format citations automatically. L3 autonomous.",
       "version": "1.0.0",
-      "author": {
-        "name": "hmyuuu"
-      },
-      "source": {
-        "source": "github",
-        "repo": "hmyuuu/skills"
-      },
+      "author": { "name": "hmyuuu" },
+      "source": { "source": "github", "repo": "hmyuuu/skills", "path": "plugins/citation-manager" },
       "category": "research"
     }
   ]

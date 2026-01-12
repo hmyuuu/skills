@@ -1,0 +1,8 @@
+{
+  "name": "derivation-checker",
+  "description": "Step-by-step math derivation verification. L1 conversational - check every step with human.",
+  "version": "1.0.0",
+  "author": {
+    "name": "hmyuuu"
+  }
+}
