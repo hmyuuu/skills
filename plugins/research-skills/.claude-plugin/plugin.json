@@ -4,5 +4,47 @@
   "description": "Academic research skills - papers, citations, experiments, derivations, typst/cetz, and more. L1-L3 autonomy with human validation.",
   "author": {
     "name": "hmyuuu"
-  }
+  },
+  "skills": [
+    {
+      "name": "academic-research",
+      "description": "Research academic papers and questions, write typst documents with cetz visualizations",
+      "command": "academic-research"
+    },
+    {
+      "name": "arxiv-digest",
+      "description": "Digest and summarize arXiv papers",
+      "command": "arxiv-digest"
+    },
+    {
+      "name": "citation-manager",
+      "description": "Manage citations and references",
+      "command": "citation-manager"
+    },
+    {
+      "name": "derivation-checker",
+      "description": "Check mathematical derivations for correctness",
+      "command": "derivation-checker"
+    },
+    {
+      "name": "experiment-logger",
+      "description": "Log and track experiments",
+      "command": "experiment-logger"
+    },
+    {
+      "name": "flowchart",
+      "description": "Generate flowcharts and diagrams",
+      "command": "flowchart"
+    },
+    {
+      "name": "issue-triage",
+      "description": "Triage and categorize issues",
+      "command": "issue-triage"
+    },
+    {
+      "name": "latex-to-typst",
+      "description": "Convert LaTeX documents to Typst",
+      "command": "latex-to-typst"
+    }
+  ]
 }

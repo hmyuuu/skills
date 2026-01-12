@@ -12,6 +12,10 @@ install:
     claude plugin marketplace add https://github.com/hmyuuu/skills
     claude plugin install research-skills@hmyuuu-skills
     ./install.sh
+    
+uninstall:
+    claude plugin remove research-skills
+    claude plugin marketplace remove hmyuuu-skills
 
 # Clear local Claude plugin cache
 clear-cache:
