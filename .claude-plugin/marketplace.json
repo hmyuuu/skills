@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "hmyuuu-skills",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Human Values Skills Repository - You Validate, AI Executes. Agentic skills for academic research, LaTeX/Typst workflows, and development automation.",
   "owner": {
     "name": "hmyuuu",
@@ -10,11 +10,27 @@
   "plugins": [
     {
       "name": "research-skills",
-      "description": "Academic research skills - papers, citations, experiments, derivations, typst/cetz, and more. L1-L3 autonomy with human validation.",
-      "version": "1.0.1",
+      "description": "Academic research skills - papers, citations, derivations, typst/cetz, and more. L1-L3 autonomy with human validation.",
+      "version": "1.0.2",
       "author": { "name": "hmyuuu" },
       "source": "./plugins/research-skills",
       "category": "research"
+    },
+    {
+      "name": "dev-skills",
+      "description": "Development skills - issue triage, experiment logging, and more. L2 autonomy with human validation.",
+      "version": "1.0.2",
+      "author": { "name": "hmyuuu" },
+      "source": "./plugins/dev-skills",
+      "category": "development"
+    },
+    {
+      "name": "agent-skills",
+      "description": "Meta-skills for AI agent self-improvement and skill management.",
+      "version": "1.0.2",
+      "author": { "name": "hmyuuu" },
+      "source": "./plugins/agent-skills",
+      "category": "meta"
     }
   ]
 }
