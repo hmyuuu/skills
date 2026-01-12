@@ -51,3 +51,17 @@ while not conversion_complete:
 ## Human Checkpoint
 - Review edge cases AI might have missed
 - Verify mathematical notation renders correctly
+
+## Tool
+
+`latex2typst` - Rust CLI for fast conversion.
+
+```bash
+cd latex2typst && cargo build --release
+
+# Convert file
+./target/release/latex2typst -i input.tex -o output.typ
+
+# Pipe stdin
+echo '\section{Hello} $\frac{a}{b}$' | ./target/release/latex2typst
+```

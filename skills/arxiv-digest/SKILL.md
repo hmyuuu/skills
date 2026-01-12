@@ -56,3 +56,15 @@ while not goal_reached:
 - `cond-mat` - Condensed Matter
 - `hep-th` - High Energy Physics Theory
 - `stat.ML` - Statistics ML
+
+## Tool
+
+`arxiv_fetch.py` - CLI to fetch papers from arxiv API.
+
+```bash
+# Fetch ML papers
+./arxiv_fetch.py -c cs.LG -n 10 -f markdown
+
+# Search by keywords
+./arxiv_fetch.py -k "transformer" "attention" -f json
+```

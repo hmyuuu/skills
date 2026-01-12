@@ -29,13 +29,6 @@ Every skill has explicit checkpoints where your judgment is required.
 | `experiment-logger` | L2 | Log ML experiments with params and plots |
 | `citation-manager` | L3 | Find and format citations |
 
-## Tools
-
-| Tool | Language | Description |
-|------|----------|-------------|
-| `arxiv-fetch` | Python | Fetch papers from arxiv by category/keywords |
-| `latex2typst` | Rust | Convert LaTeX to typst format |
-
 ## Installation
 
 ### Claude Code
