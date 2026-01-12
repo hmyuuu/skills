@@ -1,5 +1,5 @@
 ---
-name: skill:derivation-checker
+name: derivation-checker
 description: Verify mathematical derivations step-by-step, checking algebra while human spots physical intuition errors
 ---
 

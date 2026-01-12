@@ -1,20 +1,7 @@
 # LaTeX to Typst
 
-Convert LaTeX documents and equations to typst format.
+Execute the `latex-to-typst` skill with the following request:
 
-## User Request
 $ARGUMENTS
 
-## Conversions
-| LaTeX | Typst |
-|-------|-------|
-| `\section{X}` | `= X` |
-| `$...$` | `$...$` |
-| `\frac{a}{b}` | `a/b` |
-| `\sqrt{x}` | `sqrt(x)` |
-| `\cite{ref}` | `@ref` |
-
-## Tool
-```bash
-./latex2typst -i input.tex -o output.typ
-```
+Refer to `skills/latex-to-typst/SKILL.md` for full workflow and guidelines.

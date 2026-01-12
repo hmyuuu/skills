@@ -1,22 +1,7 @@
 # Flowchart
 
-Generate flowcharts using typst with cetz.
+Execute the `flowchart` skill with the following request:
 
-## User Request
 $ARGUMENTS
 
-## Input
-```
-start -> process A -> decision?
-  yes -> B -> end
-  no -> C -> A
-```
-
-## Output
-```typst
-#import "@preview/cetz:0.3.2"
-#cetz.canvas({
-  import cetz.draw: *
-  // nodes and arrows
-})
-```
+Refer to `skills/flowchart/SKILL.md` for full workflow and guidelines.

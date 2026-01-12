@@ -1,5 +1,5 @@
 ---
-name: skill:academic-research
+name: academic-research
 description: Research academic papers and questions, write typst documents with cetz visualizations, teach until human understands
 ---
 

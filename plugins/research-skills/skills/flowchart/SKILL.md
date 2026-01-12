@@ -1,5 +1,5 @@
 ---
-name: skill:flowchart
+name: flowchart
 description: Generate flowcharts and diagrams using typst with cetz
 ---
 

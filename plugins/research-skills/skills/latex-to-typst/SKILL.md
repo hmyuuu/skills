@@ -1,5 +1,5 @@
 ---
-name: skill:latex-to-typst
+name: latex-to-typst
 description: Convert LaTeX documents and equations to typst format with syntax validation
 ---
 

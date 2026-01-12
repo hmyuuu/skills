@@ -1,5 +1,5 @@
 ---
-name: skill:experiment-logger
+name: experiment-logger
 description: Log ML experiments with hyperparameters, metrics, and plots; human interprets results and plans next experiments
 ---
 

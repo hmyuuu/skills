@@ -1,5 +1,5 @@
 ---
-name: skill:issue-triage
+name: issue-triage
 description: Evaluate necessity and difficulty of issues, polish body, and create on GitHub with AI-assisted triage
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: skill:arxiv-digest
+name: arxiv-digest
 description: Autonomous daily digest of relevant arxiv papers in physics and ML based on your interests
 ---
 

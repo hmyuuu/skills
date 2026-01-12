@@ -1,5 +1,5 @@
 ---
-name: skill:citation-manager
+name: citation-manager
 description: Find, format, and manage academic citations in BibTeX and typst formats
 ---
 
