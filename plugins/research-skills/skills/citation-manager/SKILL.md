@@ -1,15 +1,14 @@
 ---
-name: citation-manager
+name: skill:citation-manager
 description: Find, format, and manage academic citations in BibTeX and typst formats
 ---
 
 # Citation Manager (L3 - Autonomous)
 
-## Usage
-```
-/skill:citation-manager find: Attention Is All You Need
-/skill:citation-manager add arxiv:2301.00001 to refs.bib as bibtex
-```
+You are executing the citation-manager skill.
+
+## User Request
+$ARGUMENTS
 
 ## Purpose
 Autonomously find and format citations from paper titles, DOIs, or arxiv IDs.

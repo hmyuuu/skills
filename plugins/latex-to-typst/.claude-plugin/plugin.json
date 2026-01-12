@@ -1,8 +1,0 @@
-{
-  "name": "latex-to-typst",
-  "description": "Convert LaTeX documents to typst format. L3 autonomous conversion with human review.",
-  "version": "1.0.0",
-  "author": {
-    "name": "hmyuuu"
-  }
-}

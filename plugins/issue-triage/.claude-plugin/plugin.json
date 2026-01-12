@@ -1,8 +1,0 @@
-{
-  "name": "issue-triage",
-  "description": "Evaluate, polish, and create GitHub issues with human validation checkpoints. L2 autonomy.",
-  "version": "1.0.0",
-  "author": {
-    "name": "hmyuuu"
-  }
-}

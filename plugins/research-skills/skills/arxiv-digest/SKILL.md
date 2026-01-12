@@ -1,15 +1,14 @@
 ---
-name: arxiv-digest
+name: skill:arxiv-digest
 description: Autonomous daily digest of relevant arxiv papers in physics and ML based on your interests
 ---
 
 # Arxiv Digest (L3 - Autonomous)
 
-## Usage
-```
-/skill:arxiv-digest fetch cs.LG quant-ph papers on transformers
-/skill:arxiv-digest weekly digest for reinforcement learning
-```
+You are executing the arxiv-digest skill.
+
+## User Request
+$ARGUMENTS
 
 ## Purpose
 Automatically fetch, filter, and summarize arxiv papers matching your research interests.

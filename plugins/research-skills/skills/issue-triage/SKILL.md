@@ -1,15 +1,14 @@
 ---
-name: issue-triage
+name: skill:issue-triage
 description: Evaluate necessity and difficulty of issues, polish body, and create on GitHub with AI-assisted triage
 ---
 
 # Issue Triage (L2 - Directed)
 
-## Usage
-```
-/skill:issue-triage create issue for owner/repo: describe the bug here
-/skill:issue-triage check duplicates for: login failure on mobile
-```
+You are executing the issue-triage skill.
+
+## User Request
+$ARGUMENTS
 
 ## Purpose
 Help you create well-formed GitHub issues by evaluating necessity, assessing difficulty, and polishing the issue body before opening.

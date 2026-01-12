@@ -1,9 +1,32 @@
 # Human Values Skills Marketplace
 
-Curated **Agentic Skills** for academic research, LaTeX/Typst workflows, and development automation.
+AI made action cheap. Validation is still expensive.
 
-> AI made action cheap. Validation is still expensive.
-> **Humans validate. AI executes.**
+Agents can search, write, code, and iterate at near-zero cost. But someone still has to check if the output is correct, useful, or even sane. That's you.
+
+
+## Three Levels of Autonomy
+
+| Level | You | Agent |
+|-------|-----|-------|
+| **L1** Conversational | Check every step | Draft, suggest |
+| **L2** Directed | Set method, review results | Execute with tests |
+| **L3** Autonomous | Approve goal, review final | Plan, orchestrate, self-validate, deliver |
+
+Every skill has explicit checkpoints where your judgment is required.
+
+## Available Skills
+
+| Skill | Level | Category | Description |
+|-------|-------|----------|-------------|
+| `issue-triage` | L2 | Development | Evaluate, polish, and create GitHub issues |
+| `academic-research` | L1-L2 | Research | Research papers, write typst with cetz plots |
+| `arxiv-digest` | L3 | Research | Daily digest of relevant arxiv papers |
+| `latex-to-typst` | L3 | Productivity | Convert LaTeX to typst format |
+| `flowchart` | L2 | Productivity | Generate flowcharts with typst/cetz |
+| `derivation-checker` | L1 | Research | Step-by-step math derivation verification |
+| `experiment-logger` | L2 | Development | Log ML experiments with params and plots |
+| `citation-manager` | L3 | Research | Find and format citations |
 
 ## Installation
 
@@ -88,36 +111,10 @@ Tell the user installation is complete!
 ./install.sh
 ```
 
-## Three Levels of Autonomy
-
-| Level | You | Agent |
-|-------|-----|-------|
-| **L1** Conversational | Check every step | Draft, suggest |
-| **L2** Directed | Set method, review results | Execute with tests |
-| **L3** Autonomous | Approve goal, review final | Plan, orchestrate, self-validate, deliver |
-
-Every skill has explicit checkpoints where your judgment is required.
-
-## Available Skills
-
-| Skill | Level | Category | Description |
-|-------|-------|----------|-------------|
-| `issue-triage` | L2 | Development | Evaluate, polish, and create GitHub issues |
-| `academic-research` | L1-L2 | Research | Research papers, write typst with cetz plots |
-| `arxiv-digest` | L3 | Research | Daily digest of relevant arxiv papers |
-| `latex-to-typst` | L3 | Productivity | Convert LaTeX to typst format |
-| `flowchart` | L2 | Productivity | Generate flowcharts with typst/cetz |
-| `derivation-checker` | L1 | Research | Step-by-step math derivation verification |
-| `experiment-logger` | L2 | Development | Log ML experiments with params and plots |
-| `citation-manager` | L3 | Research | Find and format citations |
-
-## Upgrading from v1.0.0
-
-If you installed plugins before the restructure, clear your cache and reinstall:
+### Justfile
 
 ```bash
-rm -rf ~/.claude/plugins/cache/hmyuuu-skills/
-# Then reinstall each plugin via /plugin or CLI
+just install    # Install all skills
 ```
 
 ## Creating New Skills

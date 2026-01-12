@@ -1,15 +1,14 @@
 ---
-name: derivation-checker
+name: skill:derivation-checker
 description: Verify mathematical derivations step-by-step, checking algebra while human spots physical intuition errors
 ---
 
 # Derivation Checker (L1 - Conversational)
 
-## Usage
-```
-/skill:derivation-checker verify: d/dt(∂L/∂q̇) = ∂L/∂q
-/skill:derivation-checker check this hamiltonian derivation step by step
-```
+You are executing the derivation-checker skill.
+
+## User Request
+$ARGUMENTS
 
 ## Purpose
 Check mathematical derivations step-by-step. AI verifies algebra; you catch physics intuition errors AI will miss.

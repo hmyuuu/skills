@@ -1,15 +1,14 @@
 ---
-name: latex-to-typst
+name: skill:latex-to-typst
 description: Convert LaTeX documents and equations to typst format with syntax validation
 ---
 
 # LaTeX to Typst (L3 - Autonomous)
 
-## Usage
-```
-/skill:latex-to-typst convert paper.tex
-/skill:latex-to-typst convert this equation: \frac{d}{dx}e^x = e^x
-```
+You are executing the latex-to-typst skill.
+
+## User Request
+$ARGUMENTS
 
 ## Purpose
 Mechanically convert LaTeX documents to typst, validating syntax and compilation.

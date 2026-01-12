@@ -1,8 +1,0 @@
-{
-  "name": "arxiv-digest",
-  "description": "Autonomous daily digest of relevant arxiv papers in physics and ML based on your interests. L3 autonomy.",
-  "version": "1.0.0",
-  "author": {
-    "name": "hmyuuu"
-  }
-}

@@ -1,15 +1,14 @@
 ---
-name: experiment-logger
+name: skill:experiment-logger
 description: Log ML experiments with hyperparameters, metrics, and plots; human interprets results and plans next experiments
 ---
 
 # Experiment Logger (L2 - Directed)
 
-## Usage
-```
-/skill:experiment-logger log run: lr=0.001 batch=32 loss=0.23
-/skill:experiment-logger compare exp_001 vs exp_002
-```
+You are executing the experiment-logger skill.
+
+## User Request
+$ARGUMENTS
 
 ## Purpose
 Track ML experiments systematically. AI logs and visualizes; you interpret and decide next steps.

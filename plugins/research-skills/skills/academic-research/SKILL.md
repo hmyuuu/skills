@@ -1,15 +1,14 @@
 ---
-name: academic-research
+name: skill:academic-research
 description: Research academic papers and questions, write typst documents with cetz visualizations, teach until human understands
 ---
 
 # Academic Research (L1-L2)
 
-## Usage
-```
-/skill:academic-research explain: variational autoencoders for grad student
-/skill:academic-research summarize this paper: arxiv.org/abs/2301.00001
-```
+You are executing the academic-research skill.
+
+## User Request
+$ARGUMENTS
 
 ## Purpose
 Research academic topics, produce typst documents with proper citations and cetz plots, and iteratively explain until you truly understand.
