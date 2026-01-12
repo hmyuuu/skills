@@ -1,0 +1,116 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "hmyuuu-skills",
+  "version": "1.0.0",
+  "description": "Human Values Skills Repository - You Validate, AI Executes. Agentic skills for academic research, LaTeX/Typst workflows, and development automation.",
+  "owner": {
+    "name": "hmyuuu",
+    "email": "hmyuuu@users.noreply.github.com"
+  },
+  "plugins": [
+    {
+      "name": "issue-triage",
+      "description": "Evaluate, polish, and create GitHub issues with human validation checkpoints. L2 autonomy - human sets method, reviews results.",
+      "version": "1.0.0",
+      "author": {
+        "name": "hmyuuu"
+      },
+      "source": {
+        "source": "github",
+        "repo": "hmyuuu/skills"
+      },
+      "category": "development"
+    },
+    {
+      "name": "academic-research",
+      "description": "Research papers, write typst with cetz plots. L1-L2 autonomy with human validation at key decision points.",
+      "version": "1.0.0",
+      "author": {
+        "name": "hmyuuu"
+      },
+      "source": {
+        "source": "github",
+        "repo": "hmyuuu/skills"
+      },
+      "category": "research"
+    },
+    {
+      "name": "arxiv-digest",
+      "description": "Autonomous daily digest of relevant arxiv papers in physics and ML based on your interests. L3 autonomy - human approves goal, reviews final digest.",
+      "version": "1.0.0",
+      "author": {
+        "name": "hmyuuu"
+      },
+      "source": {
+        "source": "github",
+        "repo": "hmyuuu/skills"
+      },
+      "category": "research"
+    },
+    {
+      "name": "latex-to-typst",
+      "description": "Convert LaTeX documents to typst format. L3 autonomous conversion with human review of final output.",
+      "version": "1.0.0",
+      "author": {
+        "name": "hmyuuu"
+      },
+      "source": {
+        "source": "github",
+        "repo": "hmyuuu/skills"
+      },
+      "category": "productivity"
+    },
+    {
+      "name": "flowchart",
+      "description": "Generate flowcharts with typst/cetz. L2 autonomy - directed creation with human validation.",
+      "version": "1.0.0",
+      "author": {
+        "name": "hmyuuu"
+      },
+      "source": {
+        "source": "github",
+        "repo": "hmyuuu/skills"
+      },
+      "category": "productivity"
+    },
+    {
+      "name": "derivation-checker",
+      "description": "Step-by-step math derivation verification. L1 conversational - check every step with human.",
+      "version": "1.0.0",
+      "author": {
+        "name": "hmyuuu"
+      },
+      "source": {
+        "source": "github",
+        "repo": "hmyuuu/skills"
+      },
+      "category": "research"
+    },
+    {
+      "name": "experiment-logger",
+      "description": "Log ML experiments with params and plots. L2 directed autonomy with human review of results.",
+      "version": "1.0.0",
+      "author": {
+        "name": "hmyuuu"
+      },
+      "source": {
+        "source": "github",
+        "repo": "hmyuuu/skills"
+      },
+      "category": "development"
+    },
+    {
+      "name": "citation-manager",
+      "description": "Find and format citations automatically. L3 autonomous with human validation of final bibliography.",
+      "version": "1.0.0",
+      "author": {
+        "name": "hmyuuu"
+      },
+      "source": {
+        "source": "github",
+        "repo": "hmyuuu/skills"
+      },
+      "category": "research"
+    }
+  ]
+}

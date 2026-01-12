@@ -5,6 +5,12 @@ description: Autonomous daily digest of relevant arxiv papers in physics and ML 
 
 # Arxiv Digest (L3 - Autonomous)
 
+## Usage
+```
+/skill:arxiv-digest fetch cs.LG quant-ph papers on transformers
+/skill:arxiv-digest weekly digest for reinforcement learning
+```
+
 ## Purpose
 Automatically fetch, filter, and summarize arxiv papers matching your research interests.
 

@@ -5,6 +5,12 @@ description: Generate flowcharts and diagrams using typst with cetz
 
 # Flowchart (L2 - Directed)
 
+## Usage
+```
+/skill:flowchart user login flow: input credentials -> validate -> success/fail
+/skill:flowchart CI pipeline: push -> build -> test -> deploy
+```
+
 ## Purpose
 Generate flowcharts, state diagrams, and process flows using typst and cetz.
 

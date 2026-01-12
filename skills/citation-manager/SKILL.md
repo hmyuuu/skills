@@ -5,6 +5,12 @@ description: Find, format, and manage academic citations in BibTeX and typst for
 
 # Citation Manager (L3 - Autonomous)
 
+## Usage
+```
+/skill:citation-manager find: Attention Is All You Need
+/skill:citation-manager add arxiv:2301.00001 to refs.bib as bibtex
+```
+
 ## Purpose
 Autonomously find and format citations from paper titles, DOIs, or arxiv IDs.
 

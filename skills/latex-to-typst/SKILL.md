@@ -5,6 +5,12 @@ description: Convert LaTeX documents and equations to typst format with syntax v
 
 # LaTeX to Typst (L3 - Autonomous)
 
+## Usage
+```
+/skill:latex-to-typst convert paper.tex
+/skill:latex-to-typst convert this equation: \frac{d}{dx}e^x = e^x
+```
+
 ## Purpose
 Mechanically convert LaTeX documents to typst, validating syntax and compilation.
 

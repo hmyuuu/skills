@@ -5,6 +5,12 @@ description: Evaluate necessity and difficulty of issues, polish body, and creat
 
 # Issue Triage (L2 - Directed)
 
+## Usage
+```
+/skill:issue-triage create issue for owner/repo: describe the bug here
+/skill:issue-triage check duplicates for: login failure on mobile
+```
+
 ## Purpose
 Help you create well-formed GitHub issues by evaluating necessity, assessing difficulty, and polishing the issue body before opening.
 

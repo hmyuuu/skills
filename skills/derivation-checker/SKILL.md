@@ -5,6 +5,12 @@ description: Verify mathematical derivations step-by-step, checking algebra whil
 
 # Derivation Checker (L1 - Conversational)
 
+## Usage
+```
+/skill:derivation-checker verify: d/dt(∂L/∂q̇) = ∂L/∂q
+/skill:derivation-checker check this hamiltonian derivation step by step
+```
+
 ## Purpose
 Check mathematical derivations step-by-step. AI verifies algebra; you catch physics intuition errors AI will miss.
 
