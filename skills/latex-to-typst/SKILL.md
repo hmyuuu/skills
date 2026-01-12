@@ -1,0 +1,53 @@
+---
+name: latex-to-typst
+description: Convert LaTeX documents and equations to typst format with syntax validation
+---
+
+# LaTeX to Typst (L3 - Autonomous)
+
+## Purpose
+Mechanically convert LaTeX documents to typst, validating syntax and compilation.
+
+## Autonomy Level: L3 (Autonomous)
+- **Human**: Provide input, accept output
+- **AI**: Convert → validate → test compile → done
+
+## Agent Loop
+```
+while not conversion_complete:
+    coder.parse_latex(input)
+    writer.generate_typst(parsed)
+    prover.validate_syntax()
+    prover.test_compile()
+    if errors:
+        coder.fix_errors()
+    else:
+        present_to_human(output)
+```
+
+## Conversion Rules
+
+| LaTeX | Typst |
+|-------|-------|
+| `\section{X}` | `= X` |
+| `\subsection{X}` | `== X` |
+| `$...$` | `$...$` |
+| `$$...$$` | `$ ... $` (block) |
+| `\frac{a}{b}` | `a/b` or `frac(a,b)` |
+| `\sqrt{x}` | `sqrt(x)` |
+| `\begin{equation}` | `$ ... $` |
+| `\cite{ref}` | `@ref` |
+| `\textbf{X}` | `*X*` |
+| `\textit{X}` | `_X_` |
+
+## Input Required
+- LaTeX source (file or text)
+- Package dependencies to handle
+
+## Output
+- typst file with equivalent content
+- Compilation test result
+
+## Human Checkpoint
+- Review edge cases AI might have missed
+- Verify mathematical notation renders correctly
