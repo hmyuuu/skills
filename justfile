@@ -9,6 +9,8 @@ list:
 
 # Install plugins for Droid/OpenCode
 install:
+    claude plugin marketplace add https://github.com/hmyuuu/skills
+    claude plugin install research-skills@hmyuuu-skills
     ./install.sh
 
 # Clear local Claude plugin cache
