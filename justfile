@@ -9,13 +9,21 @@ list:
 
 # Install plugins for Droid/OpenCode
 install:
-    claude plugin marketplace add https://github.com/hmyuuu/skills
-    claude plugin install research-skills@hmyuuu-skills
     ./install.sh
-    
-uninstall:
-    claude plugin remove research-skills
-    claude plugin marketplace remove hmyuuu-skills
+
+# Run Claude Code with this plugin loaded
+run:
+    claude --plugin-dir "$(pwd)/plugins/research-skills"
+
+# Show how to configure plugin permanently
+setup:
+    @echo "To use these skills in Claude Code, either:"
+    @echo ""
+    @echo "1. Run with --plugin-dir flag:"
+    @echo "   claude --plugin-dir $(pwd)/plugins/research-skills"
+    @echo ""
+    @echo "2. Or add to your settings (~/.claude/settings.json):"
+    @echo '   {"plugins": {"directories": ["'$(pwd)'/plugins/research-skills"]}}'
 
 # Clear local Claude plugin cache
 clear-cache:
