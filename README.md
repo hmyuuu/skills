@@ -1,33 +1,20 @@
-# Human Values Skills Repository
+# Skills
 
-> **"You Validate"** — Human values are the source of truth. AI agents execute; humans judge what matters.
+AI made action cheap. Validation is still expensive.
 
-## Philosophy
+Agents can search, write, code, and iterate at near-zero cost. But someone still has to check if the output is correct, useful, or even sane. That's you.
 
-These skills are designed around a simple principle: **you think, AI types**.
+**Humans validate. AI executes.**
 
-- **AI is good at**: search, synthesis, formatting, boilerplate, checking algebra, running tests
-- **You are better at**: judging what matters, spotting nonsense, creative leaps, knowing when something "feels wrong"
+## Three Levels of Autonomy
 
-Every skill has explicit **human checkpoints** where your judgment is required.
+| Level | You | Agent |
+|-------|-----|-------|
+| **L1** Conversational | Check every step | Draft, suggest |
+| **L2** Directed | Set method, review results | Execute with tests |
+| **L3** Autonomous | Approve goal, review final | Plan, orchestrate, self-validate, deliver |
 
-## Three Autonomy Levels
-
-| Level | Name | Human Role | AI Role | Validation |
-|-------|------|------------|---------|------------|
-| **L1** | Conversational | Active dialog, manual check each step | Respond, draft, suggest | Human validates every output |
-| **L2** | Directed | Set direction & method, review results, plan next | Execute with unit tests, ensure correctness | Unit tests + human review |
-| **L3** | Autonomous | Approve goal, review final output | Plan → orchestrate subagents → validate loop → present when done | Agent loop + unit tests + human final approval |
-
-## AI Subagent Roles
-
-| Subagent | Responsibility |
-|----------|----------------|
-| **Researcher** | Web search, context gathering, fact-finding |
-| **Coder** | Implementation, scripts, automation |
-| **Writer** | Drafting prose, typst/latex, documentation |
-| **Polisher** | Refining, formatting, style consistency |
-| **Prover** | Unit tests, validation, derivation checks |
+Every skill has explicit checkpoints where your judgment is required.
 
 ## Skills
 
