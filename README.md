@@ -24,9 +24,17 @@ Every skill has explicit checkpoints where your judgment is required.
 | `academic-research` | L1-L2 | Research papers, write typst with cetz plots |
 | `arxiv-digest` | L3 | Daily digest of relevant arxiv papers |
 | `latex-to-typst` | L3 | Convert LaTeX to typst format |
+| `flowchart` | L2 | Generate flowcharts with typst/cetz |
 | `derivation-checker` | L1 | Step-by-step math derivation verification |
 | `experiment-logger` | L2 | Log ML experiments with params and plots |
 | `citation-manager` | L3 | Find and format citations |
+
+## Tools
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| `arxiv-fetch` | Python | Fetch papers from arxiv by category/keywords |
+| `latex2typst` | Rust | Convert LaTeX to typst format |
 
 ## Installation
 
