@@ -1,4 +1,4 @@
-# Human Values Skills Marketplace
+# Skills 
 
 AI made action cheap. Validation is still expensive.
 
