@@ -31,6 +31,17 @@
       "author": { "name": "hmyuuu" },
       "source": "./plugins/agent-skills",
       "category": "meta"
+    },
+    {
+      "name": "inline-viz",
+      "description": "Inline terminal visualization — render typst diagrams (quantum circuits, tensor networks, QEC codes, BDDs, plots) directly in iTerm2/Kitty/Ghostty",
+      "version": "0.1.0",
+      "author": { "name": "hmyuuu" },
+      "source": {
+        "source": "github",
+        "repo": "hmyuuu/inline-viz"
+      },
+      "category": "visualization"
     }
   ]
 }
